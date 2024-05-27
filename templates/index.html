@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='bulma/bulma.css') }}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+    <center>
+        <div style="width: 500px;" class="container"></div>
+
+        <h1 class="title has-text-primary is-size-10 is-family-primary" >LOGIN</h1>
+        <form action="check-user" method="POSt" class="box has-background-danger-light">
+        
+        
+        <div class="field">
+        <label class="has-text-danger">Username :</label> 
+        <div class=" control"> 
+        <input class="input" type="text" name="username" placeholder="" />
+        
+        </div>
+        
+        </div>
+        
+        <div class="field">
+        
+        <label1 class="has-text-danger">Password: </label>
+        
+        <div class="control">
+        
+        <input class="input" type= "password" name="password" placeholder="" />
+        
+        </div>
+        
+        </div>
+
+        <button type="submit" class="button  has-text-primary-has-background-danger-dark" >LOGIN</button>
+        </form>
+        </center>
+</body>
+
+</html>

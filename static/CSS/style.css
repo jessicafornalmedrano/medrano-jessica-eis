@@ -1,0 +1,133 @@
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color:gray;
+    padding: 10px;
+    width: 100%;
+    height: 110px;
+    z-index: 100; 
+}
+
+.employee_list{
+    position: fixed;
+    left: 1%;
+    top: 110px;
+    background-color:gray;
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.employee{
+    color: white;
+    position: fixed;
+    top: 135px;
+    left: 90px;
+}
+
+
+
+.personal{
+    position: fixed;
+    left: 1%;
+    top: 215px;
+    background-color: gray;
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.personal1{
+    color: white;
+    position: fixed;
+    top: 235px;
+    left: 45px;
+}
+
+.education{
+    position: fixed;
+    left: 1%;
+    top: 320px;
+    background-color: gray;
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.educational{
+    color:white;
+    position: fixed;
+    top: 340px;
+    left: 25px;
+}
+
+.experience{
+    position: fixed;
+    left: 1%;
+    top: 425px;
+    background-color: gray;
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.experience1{
+    color: white;
+    position: fixed;
+    top: 445px;
+    left: 65px;
+}
+
+.trainings{
+    position: fixed;
+    left: 1%;
+    top: 530px;
+    background-color: gray;
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.training1{
+    color:white;
+    position: fixed;
+    top: 550px;
+    left: 125px;
+}
+
+.logout{
+    position: fixed;
+    left: 1%;
+    top: 635px;
+    background-color: gray;
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.logout1{
+    color: black;
+    position: fixed;
+    top: 660px;
+    left: 140px;
+}
+
+h2{
+    position: relative;
+    top: 50px;
+    left:500px;
+}
+
+.table{
+    position: relative;
+    width: 900px;
+    height: auto;
+    top: 90px;
+    left: 500px;
+  }
+
+td {
+    height: 40px;
+  }
+
