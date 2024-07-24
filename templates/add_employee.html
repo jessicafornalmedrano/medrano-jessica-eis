@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='bulma/bulma.css') }}">
+    <style>
+        .box {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div style="width: 800px;" class="container">
+            <h1 class="title has-text-primary is-size-3 is-family-primary">ADD EMPLOYEE</h1>
+            <form class="box has-background-danger-light" action="{{ url_for('add_employee') }}" method="POST">
+                <div class="field">
+                    <label class="has-text-danger">Employee ID:</label>
+                    <div class="control">
+                        <input class="input" name="emp_id" type="text" placeholder="employee id" />
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="has-text-danger">Last Name:</label>
+                    <div class="control">
+                        <input class="input" name="lname" type="text" placeholder="last name" />
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="has-text-danger">First Name:</label>
+                    <div class="control">
+                        <input class="input" name="fname" type="text" placeholder="first name" />
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="has-text-danger">Middle Name:</label>
+                    <div class="control">
+                        <input class="input" name="mname" type="text" placeholder="middle name" />
+                    </div>
+                </div>
+
+                <button class="button has-text-primary has-background-danger-dark">ADD</button>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
